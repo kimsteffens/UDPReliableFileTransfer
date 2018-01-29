@@ -42,7 +42,7 @@ class Client {
 		clientSocket.receive(rPacket);
 
 
-		// while loop to ensure that file size is received. DESIGN BETTER
+		// while loop to ensure that file size is received.
 		int size = -1;
 		int count = 0;
 		while (size == -1) {
